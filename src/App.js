@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Result from "./components/Result";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Rules from "./components/Rules";
 
 function App() {
   return (
@@ -14,8 +15,11 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/game">
+          <Route  path="/game">
             <Result />
+          </Route>
+          <Route  path="/rules">
+            <Rules />
           </Route>
         </Switch>
       </Router>

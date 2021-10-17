@@ -10,7 +10,7 @@ function Header() {
       </h2>
 
       <div class="container">
-        <div class="btn">score</div>
+        <div class="button">score</div>
       </div>
     </div>
   );

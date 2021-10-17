@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div>
+    <div >
       <div className="boxes">
         <Link to="/game">
           <a className="box" href="">
@@ -25,6 +25,12 @@ function Home() {
             <h3>scissors</h3>
             <i className="fa fa-hand-spock-o"></i>
           </a>
+        </Link>
+      </div>
+      
+      <div>
+        <Link to="/rules">
+        <button className="rule">Rules</button>
         </Link>
       </div>
     </div>

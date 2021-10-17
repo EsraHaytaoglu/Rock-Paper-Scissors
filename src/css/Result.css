@@ -1,0 +1,37 @@
+.boxes {
+  text-align: center;
+  position: relative;
+  width: 1260px;
+  margin-left: 20%;
+}
+
+.boxes .box {
+  display: block;
+  float: left;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  text-align: center;
+  border-collapse: collapse;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.boxes .box h3 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  margin: 0;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.boxes .box i {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-size: 4em;
+}
+
+

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
 .boxes {
   text-align: center;
   position: relative;
@@ -24,6 +24,7 @@
   transition: all 0.5s;
   padding-top: 50px;
   padding-bottom: 60px;
+  font-family: 'Pirata One', cursive;
   margin: 0;
   font-size: 2em;
   text-transform: uppercase;
@@ -34,13 +35,6 @@
   transition: all 0.4s;
   font-size: 4em;
 }
-
-.boxes .box p {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  margin-top: 70px;
-}
-
 .boxes .box:before {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -87,7 +81,7 @@
 .boxes .box:hover:after {
   width: 402px;
   margin-left: -50%;
-  border-color: #5a5a5a;
+  border-color: #F7971E;
 }
 
 .boxes .box:hover:before {

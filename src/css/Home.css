@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+.boxes {
+  text-align: center;
+  position: relative;
+  width: 1260px;
+  margin: 0 auto;
+}
+
+.boxes .box {
+  display: block;
+  float: left;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  text-align: center;
+  border-collapse: collapse;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.boxes .box h3 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  margin: 0;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.boxes .box i {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-size: 4em;
+}
+
+.boxes .box p {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-top: 70px;
+}
+
+.boxes .box:before {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 50%;
+  left: 50%;
+  margin-left: -50%;
+  top: 25%;
+  border-color: rgba(200, 200, 200, 0);
+  border-style: solid;
+  border-width: 0 1px;
+}
+
+.boxes .box:after {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  margin-left: -25%;
+  top: 0;
+  border-color: rgba(200, 200, 200, 0);
+  border-style: solid;
+  border-width: 1px 0;
+}
+
+.boxes .box:hover {
+  color: #4099FF;
+}
+
+.boxes .box:hover h3 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.boxes .box:hover p {
+  margin-top: 30px;
+}
+
+.boxes .box:hover:after {
+  width: 402px;
+  margin-left: -50%;
+  border-color: #5a5a5a;
+}
+
+.boxes .box:hover:before {
+  height: 352px;
+  top: 0%;
+  border-color: #5a5a5a;
+}
+/*# sourceMappingURL=Home.css.map */

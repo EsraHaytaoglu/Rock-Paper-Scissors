@@ -27,11 +27,33 @@
   font-size: 2em;
   text-transform: uppercase;
 }
+.boxes .box h2 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-transform: uppercase;
+  margin-left: -115%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3em;
+}
 
 .boxes .box i {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   font-size: 4em;
+}
+/* #F7971E */
+
+.nextGame {
+  color: black;
+  font-family: 'Pirata One', cursive;
+  font-size: inherit;
+  background: white;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid black;
+  box-shadow: 0 0 0 black;
+  transition: all 0.2s;
+  margin-top: 50px;
 }
 
 

@@ -13,9 +13,9 @@ h2 {
 font-family: 'Pirata One', cursive;
 font-size: 3rem;
 color: #F7971E;
-min-width: 1200px;
+min-width: 1350px;
 text-align: center;}
 
-h2 spam {
+h2 span {
   font-size: .8em; 
 }

@@ -2,29 +2,33 @@ import React from "react";
 import "../css/Home.css";
 import { Link } from "react-router-dom";
 
-function Home() {
+function Home({ setMyChoice, computerPick }) {
+  const setChoice=(e)=> {
+    setMyChoice(e.target.id);
+    computerPick();
+  }
   return (
     <div >
       <div className="boxes">
         <Link to="/game">
-          <a className="box" href="">
+          <div className="box" id="rock" onClick={setChoice}>
             <h3>rock</h3>
             <i className="fa fa-hand-rock-o"></i>
-          </a>
+          </div>
         </Link>
 
         <Link to="/game">
-          <a className="box" href="">
+          <div className="box" id="paper" onClick={setChoice} >
             <h3>paper</h3>
             <i className="fa fa-hand-paper-o"></i>
-          </a>
+          </div>
         </Link>
 
         <Link to="/game">
-          <a className="box" href="">
+          <div className="box" id="scissors" onClick={setChoice} >
             <h3>scissors</h3>
             <i className="fa fa-hand-spock-o"></i>
-          </a>
+          </div>
         </Link>
       </div>
       

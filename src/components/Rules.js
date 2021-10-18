@@ -7,7 +7,7 @@ function Rules() {
     <div className="body">
       <div className="modal">
         <p className="message">
-        If the player wins,  gain 1 point. If the computer wins, the player loses one point. Whoever scores 3 wins.
+        You can only earn 1 score per round. 3 scores wins !
         <ul>
             <li>Paper beats Rock</li>
             <li>Rock beats Scissors</li>
